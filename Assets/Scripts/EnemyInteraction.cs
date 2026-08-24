@@ -8,6 +8,7 @@ public class EnemyInteraction : MonoBehaviour
     public Transform player;
     public TextMeshProUGUI interactionText;
     public GameObject dialoguePanel;
+    public EnemyHealth enemyHealth;
 
     void Update()
     {
